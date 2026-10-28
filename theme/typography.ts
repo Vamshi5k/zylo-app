@@ -1,0 +1,50 @@
+export const typography = {
+  fontFamily: {
+    regular: "Manrope_400Regular",
+    medium: "Manrope_500Medium",
+    semiBold: "Manrope_600SemiBold",
+    bold: "Manrope_700Bold",
+    extraBold: "Manrope_800ExtraBold",
+  },
+
+  size: {
+    tiny: 8,
+    micro: 9,
+    xs: 10,
+    sm: 12,
+    md: 14,
+    base: 16,
+    lg: 18,
+    xl: 20,
+    "2xl": 24,
+    "3xl": 30,
+    header: 17,
+    splash: 44,
+    mark: 25,
+    display: 32,
+    hero: 36,
+  },
+
+  lineHeight: {
+    tight: 40,
+    heading: 32,
+    title: 28,
+    body: 24,
+    compact: 18,
+    display: 38,
+    hero: 42,
+  },
+
+  letterSpacing: {
+    tight: -1,
+    subtle: -0.5,
+    normal: 0,
+    caps: 0.5,
+    wide: 0.7,
+    wider: 1,
+    label: 1.5,
+    widest: 1.7,
+    brand: 4,
+    mark: 5,
+  },
+};
